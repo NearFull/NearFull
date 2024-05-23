@@ -23,7 +23,7 @@ function getProducts(){
                 'Accept': 'application/json',
                'Content-Type': 'application/json',
                 Authorization: 'Bearer {QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau}',
-                'Access-Control-Allow-Origin': '*'
+                
               
 
 
