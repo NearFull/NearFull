@@ -2,6 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const PORT = 3000;
 app.use(cors({
   origin: 'http://api.printful.com/'
 }));
@@ -21,9 +22,9 @@ function getProducts(){
                headers: {
                 'Accept': 'application/json',
                'Content-Type': 'application/json',
-                Authorization: 'Bearer {QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau}'
-                
-                
+                Authorization: 'Bearer {QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau}',
+                'Access-Control-Allow-Origin': '*'
+              
 
 
               }
