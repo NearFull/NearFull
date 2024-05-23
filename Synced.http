@@ -1,0 +1,6 @@
+
+
+
+get https://api.printful.com/store/products
+Authorization: Bearer QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau
+Access-Control-Allow-Origin: https://example.com

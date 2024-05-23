@@ -1,0 +1,39 @@
+.header{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.button{
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  display: inline-block;
+  
+
+}
+
+.button button:hover{
+  cursor: pointer;
+  color: rgb(59, 59, 59);
+}
+.button button{
+  
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  
+  font-size: 25px;
+  border-radius: 10px;
+    
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+}
+hr{
+  size: 5px;
+  
+  
+}

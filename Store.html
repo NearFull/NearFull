@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head >
+        <script>
+            const url = "https://api.printful.com/store/products"
+            async function MakeAPICall(){
+              const result =  await fetch(url, { method: "GET", headers :{
+                "X-Auth-Token": "mNMLHapP2pZ33HuNS9aitExL2wXvUnel4t4u3j9h"
+                }
+              })
+              result.json().then(data => {console.log (data)})
+            }
+            MakeAPICall()
+        </script>
+
+
+
+        <link rel="stylesheet" href="MainStyle.css">
+        <title>NearFull | Store</title>
+        <link rel="icon" href="Near-Full-Logo.png">
+        <script type = "text/javascript" src="Products.js"></script>
+
+
+
+
+
+       
+
+    </head>
+
+    
+    <!--      HEADER       -->
+    <body >
+      <div class ="header"  >
+
+
+        <div class="tab" >
+
+
+          <div class = "button" >
+            <a href="index.html">
+              <button>Home</button>
+            </a>
+           </div>
+
+
+           <div class = "button" >
+            <a href="Featured.html">
+              <button>Featured</button>
+            </a>
+           </div>
+
+           <div class = "button" >
+            <img src="Near-Full-Black.png" alt="CupBoy" width="120" height="120" style="vertical-align: middle;">
+          </div>
+        
+          <div class = "button" >
+            <a href="Store.html">
+              <button>Store</button>
+            </a>
+          </div>
+
+
+          <div class = "button" >
+              <a href="SignUp.html">
+                <button>Sign Up</button>
+              </a>
+          </div>
+          
+
+          <hr>
+        </div>
+        
+      </div>
+      
+
+    </body>
+
+
+
+    <!--      BODY       -->
+
+    <body  >
+
+      <div >
+
+        <body onLoad="getProducts"></body>
+        
+        
+      </div>
+
+    </body>
+</html>

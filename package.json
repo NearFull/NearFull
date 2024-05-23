@@ -1,0 +1,18 @@
+
+{
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-dev-middleware": "^7.2.1",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-hot-middleware": "^2.26.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+}
+}
