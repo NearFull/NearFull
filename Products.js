@@ -1,28 +1,28 @@
 
-const express = require('express');
-const cors = require('cors');
-const app = express();
+
 const PORT = 3000;
-app.use(cors({
-  origin: 'http://api.printful.com/'
-}));
+
+window.onload = getProducts();
+
+
 const port = 3000
 function getProducts(){
+
+  console.log('worki');
     let headers = new Headers();
 
     headers.append('Content-Type', 'application/json');
     headers.append('Accept', 'application/json');
     headers.append('Origin','http://api.printful.com/');
-
+    
+  
     const APIURL = "http://api.printful.com/store/products";
             fetch(APIURL, {
-                mode: 'no-cors',
+                mode: "no-cors",
                method: "GET",
                withCredentials: true,
                headers: {
-                'Accept': 'application/json',
-               'Content-Type': 'application/json',
-                Authorization: 'Bearer {QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau}',
+                Authorization: 'Bearer QH0iYmOvjvh5hy7OzTMoFo0Tp0QawPzFjh4rdfau'
                 
               
 

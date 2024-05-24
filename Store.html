@@ -1,19 +1,11 @@
+
+
 <!DOCTYPE html>
 
 <html lang="en">
 
     <head >
-        <script>
-            const url = "https://api.printful.com/store/products"
-            async function MakeAPICall(){
-              const result =  await fetch(url, { method: "GET", headers :{
-                "X-Auth-Token": "mNMLHapP2pZ33HuNS9aitExL2wXvUnel4t4u3j9h"
-                }
-              })
-              result.json().then(data => {console.log (data)})
-            }
-            MakeAPICall()
-        </script>
+
 
 
 
@@ -86,7 +78,10 @@
 
       <div >
 
-        <body onLoad="getProducts"></body>
+        <?php 
+          $str = "This is GeeksforGeeks portal"; 
+          echo " $str."; 
+        ?> 
         
         
       </div>
